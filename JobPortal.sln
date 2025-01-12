@@ -3,8 +3,55 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.12.35527.113 d17.12
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{6A0BF0E1-B4EB-44A2-BD68-D825230E9F95}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{C740F841-2685-499F-89CC-5CA77CA11050}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{FCDFBF1E-91CC-43BA-BC77-04CADF744393}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobPortal.WebApi", "JobPortal.WebApi\JobPortal.WebApi.csproj", "{4B96837E-A785-4348-806A-5F30564139CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobPortal.Domain", "JobPortal.Domain\JobPortal.Domain.csproj", "{D28BD0A8-2CD1-41BB-8669-71CBFC473115}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobPortal.Application", "JobPortal.Application\JobPortal.Application.csproj", "{DC0175EA-0EAB-40B5-B274-A5DC4E63DE00}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobPortal.Infrastructure", "JobPortal.Infrastructure\JobPortal.Infrastructure.csproj", "{824D5820-E1EF-4BFD-BADB-C8FE6F292887}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{663FE233-5659-4A71-B518-EAD7B516A4D2}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4B96837E-A785-4348-806A-5F30564139CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B96837E-A785-4348-806A-5F30564139CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B96837E-A785-4348-806A-5F30564139CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B96837E-A785-4348-806A-5F30564139CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D28BD0A8-2CD1-41BB-8669-71CBFC473115}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D28BD0A8-2CD1-41BB-8669-71CBFC473115}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D28BD0A8-2CD1-41BB-8669-71CBFC473115}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D28BD0A8-2CD1-41BB-8669-71CBFC473115}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC0175EA-0EAB-40B5-B274-A5DC4E63DE00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC0175EA-0EAB-40B5-B274-A5DC4E63DE00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC0175EA-0EAB-40B5-B274-A5DC4E63DE00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC0175EA-0EAB-40B5-B274-A5DC4E63DE00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{824D5820-E1EF-4BFD-BADB-C8FE6F292887}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{824D5820-E1EF-4BFD-BADB-C8FE6F292887}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{824D5820-E1EF-4BFD-BADB-C8FE6F292887}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{824D5820-E1EF-4BFD-BADB-C8FE6F292887}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C740F841-2685-499F-89CC-5CA77CA11050} = {6A0BF0E1-B4EB-44A2-BD68-D825230E9F95}
+		{FCDFBF1E-91CC-43BA-BC77-04CADF744393} = {6A0BF0E1-B4EB-44A2-BD68-D825230E9F95}
+		{4B96837E-A785-4348-806A-5F30564139CA} = {FCDFBF1E-91CC-43BA-BC77-04CADF744393}
+		{D28BD0A8-2CD1-41BB-8669-71CBFC473115} = {C740F841-2685-499F-89CC-5CA77CA11050}
+		{DC0175EA-0EAB-40B5-B274-A5DC4E63DE00} = {C740F841-2685-499F-89CC-5CA77CA11050}
+		{824D5820-E1EF-4BFD-BADB-C8FE6F292887} = {C740F841-2685-499F-89CC-5CA77CA11050}
+		{663FE233-5659-4A71-B518-EAD7B516A4D2} = {6A0BF0E1-B4EB-44A2-BD68-D825230E9F95}
 	EndGlobalSection
 EndGlobal
